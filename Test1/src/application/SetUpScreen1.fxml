@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <Pane prefHeight="370.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="372.0" fitWidth="252.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../../Downloads/wesley-tingey-AZtMXheXnWc-unsplash.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="10.0" layoutY="55.0" stroke="#3c3c3c" strokeType="OUTSIDE" strokeWidth="0.0" text="Type of clothes" wrappingWidth="250.6039981842041">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
+            <Text layoutX="9.0" layoutY="13.0" stroke="#3c3c3c" strokeType="OUTSIDE" strokeWidth="0.0" text="Please be careful when typing the barcode" wrappingWidth="250.6039981842041">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
+            <RadioButton alignment="CENTER_LEFT" layoutX="70.0" layoutY="70.0" mnemonicParsing="false" prefHeight="13.0" prefWidth="93.0" text="Shirt">
+               <font>
+                  <Font name="Arial" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton alignment="CENTER_LEFT" layoutX="140.0" layoutY="70.0" mnemonicParsing="false" text="Dress">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton alignment="CENTER_LEFT" layoutX="10.0" layoutY="70.0" mnemonicParsing="false" text="Pants">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="10.0" layoutY="125.0" mnemonicParsing="false" text="S">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="70.0" layoutY="125.0" mnemonicParsing="false" text="M">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="10.0" layoutY="240.0" mnemonicParsing="false" text="Summer">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="140.0" layoutY="185.0" mnemonicParsing="false" text="Yellow">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="140.0" layoutY="125.0" mnemonicParsing="false" text="L">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="10.0" layoutY="185.0" mnemonicParsing="false" text="Blue">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="70.0" layoutY="240.0" mnemonicParsing="false" text="Winter">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="70.0" layoutY="185.0" mnemonicParsing="false" text="Red">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </RadioButton>
+            <Text layoutX="10.0" layoutY="110.0" stroke="#3c3c3c" strokeType="OUTSIDE" strokeWidth="0.0" text="Size of clothes" wrappingWidth="250.6039981842041">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="165.0" stroke="#3c3c3c" strokeType="OUTSIDE" strokeWidth="0.0" text="Color of clothes" wrappingWidth="250.6039981842041">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="220.0" stroke="#3c3c3c" strokeType="OUTSIDE" strokeWidth="0.0" text="Season" wrappingWidth="250.6039981842041">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </center>
+   <top>
+      <TitledPane alignment="CENTER" prefHeight="28.0" prefWidth="251.0" text="Set Up Inventory" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" BorderPane.alignment="CENTER">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+         <textFill>
+            <LinearGradient endX="0.947242206235012" endY="1.0" startX="0.014388489208633115" startY="0.05755395683453238">
+               <stops>
+                  <Stop color="#0070a3" />
+                  <Stop color="#0070a3" offset="0.007532956685499058" />
+                  <Stop color="#0190cdb5" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </TitledPane>
+   </top>
+</BorderPane>

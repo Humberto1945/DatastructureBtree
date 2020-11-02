@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <Pane prefHeight="371.0" prefWidth="245.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="221.0" fitWidth="204.0" layoutX="68.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true" rotate="-7.6">
+               <image>
+                  <Image url="@../../../../Downloads/Icon%20simple-gumtree.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="377.0" fitWidth="255.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/ryan-moreno-IcAtXrAZx8E-unsplash.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="9.0" layoutY="13.0" stroke="#3c3c3c" strokeType="OUTSIDE" strokeWidth="0.0" text="Please be careful when typing the barcode" wrappingWidth="250.6039981842041">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
+            <RadioButton alignment="CENTER_LEFT" layoutX="11.0" layoutY="26.0" mnemonicParsing="false" prefHeight="13.0" prefWidth="149.0" text="Set up inventory">
+               <font>
+                  <Font name="Arial" size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton alignment="CENTER_LEFT" layoutX="11.0" layoutY="47.0" mnemonicParsing="false" text="Delete inventory">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </RadioButton>
+            <RadioButton alignment="CENTER_LEFT" layoutX="12.0" layoutY="70.0" mnemonicParsing="false" text="Search inventory">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </Pane>
+   </center>
+   <top>
+      <TitledPane alignment="CENTER" prefHeight="28.0" prefWidth="251.0" text="B-Tree Boutique" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" BorderPane.alignment="CENTER">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+         <textFill>
+            <LinearGradient endX="0.947242206235012" endY="1.0" startX="0.014388489208633115" startY="0.05755395683453238">
+               <stops>
+                  <Stop color="#0070a3" />
+                  <Stop color="#0070a3" offset="0.007532956685499058" />
+                  <Stop color="#0190cdb5" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </TitledPane>
+   </top>
+</BorderPane>
