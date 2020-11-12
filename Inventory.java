@@ -15,7 +15,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleGroup;
 import javafx.stage.Stage;  
          
-public class Main3 extends Application { 
+public class Inventory extends Application { 
    @Override 
    public void start(Stage stage) {  
 	   
