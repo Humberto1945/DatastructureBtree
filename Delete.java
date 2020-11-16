@@ -13,6 +13,11 @@ import javafx.stage.Stage;
 public class Delete extends Application {
 	
 	 public void start(Stage stage) {   
+		 
+		 Text instructions = new Text("Select from below or type barcode."); 
+		 Text barcodeLabel = new Text("Barcode: ");
+		//Creating new text field for barcode option
+	         TextField barcode = new TextField();
 	 
 		  Text nameLabel = new Text("Type of clothes"); 
 		  ToggleGroup groupType = new ToggleGroup(); 
@@ -47,7 +52,7 @@ public class Delete extends Application {
 	      GridPane gridPane = new GridPane();    
 	      
 	      //Setting size for the pane 
-	      gridPane.setMinSize(200, 300); 
+	      gridPane.setMinSize(383, 512); 
 	      gridPane.setStyle("-fx-background-color: BEIGE;");
 	      
 	      //Setting the padding    
@@ -60,19 +65,22 @@ public class Delete extends Application {
 	      //Setting the Grid alignment 
 	     // gridPane.setAlignment(Pos.CENTER); 
 	      
-	      gridPane.add(nameLabel, 0, 0);
-	      gridPane.add(shirt,0,1);
-	      gridPane.add(dress, 1, 1);
-	      gridPane.add(pants, 4, 1);
-	      gridPane.add(nameLabel2, 0, 6);
-	      gridPane.add(sizeS,0,7);
-	      gridPane.add(sizeM, 1, 7);
-	      gridPane.add(sizeL, 4, 7);
-	      gridPane.add(nameLabel3, 0, 9);
-	      gridPane.add(blue,0,10);
-	      gridPane.add(yellow, 1, 10);
-	      gridPane.add(pink, 4, 10);
-	      gridPane.add(button1, 0, 13);
+	      gridPane.add(instructions, 1, 1);
+	      gridPane.add(barcodeLabel,1, 30);
+	      gridPane.add(nameLabel, 1, 3);
+	      gridPane.add(shirt,1,4);
+	      gridPane.add(dress, 2, 4);
+	      gridPane.add(pants, 11, 4);
+	      gridPane.add(nameLabel2, 1, 8);
+	      gridPane.add(sizeS,1,9);
+	      gridPane.add(sizeM, 2,9);
+	      gridPane.add(sizeL, 11,9);
+	      gridPane.add(nameLabel3, 1,13);
+	      gridPane.add(blue,1,15);
+	      gridPane.add(yellow, 2, 15);
+	      gridPane.add(pink, 11, 15);
+	      gridPane.add(barcode, 1, 33);
+	      gridPane.add(button1, 1, 40);
 	      
 	      button1.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");      
 	      
