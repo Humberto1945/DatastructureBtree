@@ -63,7 +63,7 @@ public class Search extends Application {
 	      gridPane.setHgap(5);       
 	      
 	      //Setting the Grid alignment 
-	     // gridPane.setAlignment(Pos.CENTER); 
+	     gridPane.setAlignment(Pos.TOP_CENTER);  
 	      
 	      gridPane.add(instructions, 1, 1);
 	      gridPane.add(barcodeLabel,1, 30);
